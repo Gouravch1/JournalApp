@@ -1,0 +1,26 @@
+spring:
+  application:
+    name : JournalApp
+
+  data :
+    mongodb:
+      uri : mongodb+srv://gcd94701_user_db:Gaurav%402003@cluster0.twdvhos.mongodb.net/?appName=Cluster0
+      database : journaldb
+      auto-index-creation : true
+
+  mail :
+    host : smtp.gmail.com
+    port : 587
+    username : krgourav092@gmail.com
+    password : mpns rgql bmjy vylu
+    properties :
+      mail:
+        smtp:
+          auth : true
+          starttls :
+            enable : true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal

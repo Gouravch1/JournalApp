@@ -36,5 +36,6 @@ build/
 ### Secrets - Only specific files ###
 application-dev.yml
 application-prod.yml
+application.yml
 .env
 .env.*

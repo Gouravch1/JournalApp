@@ -27,6 +27,8 @@ public class User {
     @Indexed(unique = true)
     @NotBlank
     private String username;
+    private String email;
+    private Boolean sentimentAnalysis;
     @NotBlank
     private String password;
     private LocalDateTime createdAt;
